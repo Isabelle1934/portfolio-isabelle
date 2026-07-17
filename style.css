@@ -51,11 +51,18 @@ button {
 section {
   padding: 60px 10%;
   min-height: 400px;
+  font-size: 18px;
 }
 
 h1,
 h2 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+/* Separação do título Hobbies */
+#sobre h2 {
+  margin-top: 60px;
 }
 
 .card {
@@ -64,6 +71,7 @@ h2 {
   margin: 20px 0;
   border-radius: 15px;
   box-shadow: 0 5px 15px #f47cff;
+  font-size: 17px;
 }
 
 form {
@@ -116,3 +124,4 @@ footer {
     text-align: center;
   }
 }
+
